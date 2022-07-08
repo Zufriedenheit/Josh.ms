@@ -5,7 +5,7 @@
 
 body {
     background-color: #fffef8;
-    border-top: 10px solid rgb(88, 160, 40);
+    border-top: 10px solid #58a028;
     font-family: 'Roboto', sans-serif;
     color:rgb(21, 21, 21);
     height: 100vh;
@@ -59,6 +59,13 @@ nav a {
     font-size: 20px;
 }
 
+#rss {
+    height: 18px;
+    margin-bottom: -2px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 
 @media (max-width: 600px) {
     h1 {
@@ -79,3 +86,10 @@ nav a {
         padding-right: 10px;
     }
 }
+
+/* The hack for Safari */
+@supports (-webkit-touch-callout: none) {
+    body {
+      height: -webkit-fill-available;
+    }
+  }

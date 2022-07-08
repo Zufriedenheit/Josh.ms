@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+
+  <channel>
+    <title>Josh.ms Blog</title>
+    <link>https://josh.ms</link>
+    <description>Blog Posts from Josh</description>
+
+    <item>
+      <title>First Post</title>
+      <description>This is an example post 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam eaque cumque optio sed totam excepturi quaerat adipisci facilis
+      </description>
+      <link>https://josh.ms/FirstPost</link>
+      <guid>00001</guid>
+      <pubDate>Fr, 8 Jul 2022 10:13:12</pubDate>
+    </item>
+  </channel>
+
+</rss>

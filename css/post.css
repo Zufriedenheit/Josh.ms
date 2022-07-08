@@ -65,6 +65,13 @@ nav a {
     font-size: 20px;
 }
 
+#rss {
+    height: 18px;
+    margin-bottom: -2px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media (max-width: 600px) {
     article {
         width: 90%;
@@ -75,3 +82,10 @@ nav a {
         margin-top: 20px;
     }
 }
+
+/* The hack for Safari */
+@supports (-webkit-touch-callout: none) {
+    body {
+      height: -webkit-fill-available;
+    }
+  }
